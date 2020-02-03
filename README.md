@@ -1,2 +1,2 @@
 # vice-chrome
-VICE chess engine by Bluefever Software (JS version) port to Chrome extension to cheat on lichess)
+VICE chess engine by Bluefever Software (JS version) port to Chrome extension
