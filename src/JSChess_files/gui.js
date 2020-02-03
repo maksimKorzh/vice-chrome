@@ -182,7 +182,7 @@ function AddGUIPiece(sq,pce) {
 	var file = FilesBrd[sq];
 	var rankName = "rank" + (rank + 1);	
 	var fileName = "file" + (file + 1);	
-	pieceFileName = "images/" + SideChar[PieceCol[pce]] + PceChar[pce].toUpperCase() + ".png";
+	pieceFileName = "JSChess_files/" + SideChar[PieceCol[pce]] + PceChar[pce].toUpperCase() + ".png";
 	imageString = "<image src=\"" + pieceFileName + "\" class=\"Piece clickElement " + rankName + " " + fileName + "\"/>";
 	//console.log("add on " + imageString);
 	$("#Board").append(imageString);
